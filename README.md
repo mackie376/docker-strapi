@@ -9,7 +9,7 @@ git clone https://github.com/mackie376/docker-strapi <project-root>
 
 cd <project-root>
 
-docker build -t strapi:4.4.7 --build-arg STRAPI_VER=4.4.7 .
+docker build -t strapi:4.5.3 --build-arg STRAPI_VER=4.5.3 .
 ```
 
 ## 使い方

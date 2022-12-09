@@ -17,7 +17,7 @@ if [[ "$1" == "strapi" ]]; then
       --dbhost=$DATABASE_HOST \
       --dbport=$DATABASE_PORT \
       --dbname=$DATABASE_NAME \
-      --dbusername=$DATABASE_NAME \
+      --dbusername=$DATABASE_USERNAME \
       --dbpassword=$DATABASE_PASSWORD \
       --dbssl=$DATABASE_SSL \
       $EXTRA_ARGS
